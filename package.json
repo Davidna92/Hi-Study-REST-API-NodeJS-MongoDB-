@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=production node server",
+    "start": "SET NODE_ENV=production && node server",
     "dev": "nodemon server"
   },
   "author": "davidnahum92@gmail.com",
@@ -13,6 +13,7 @@
   "dependencies": {
     "express": "^4.19.2",
     "mongoose": "^8.5.1",
+    "morgan": "^1.10.0",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
   },
