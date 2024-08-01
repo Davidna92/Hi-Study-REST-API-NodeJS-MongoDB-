@@ -129,3 +129,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Data for devs
+_data
+_data/bootcamps.json
+_data/courses.json
+_data/reviews.json
+_data/users.json

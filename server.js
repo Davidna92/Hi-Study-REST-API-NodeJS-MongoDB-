@@ -9,6 +9,9 @@ const connectDB = require('./config/db');
 dotenv.config({ path: './config/config.env' });
 const app = express();
 
+//Body parser
+app.use(express.json());
+
 //Conenct to DB
 connectDB();
 
