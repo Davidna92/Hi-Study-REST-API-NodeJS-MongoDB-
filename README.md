@@ -1,2 +1,2 @@
-# node-restapi
-REST API with node js
+# Bootcamps API - HI Study
+REST API with NodeJs and MongoDB
